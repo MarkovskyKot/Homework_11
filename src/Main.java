@@ -55,11 +55,13 @@ public class Main {
         }
         return days;
     }
-public static void printDeliveryTime(int days){
-    if (days > 0) {
-        System.out.println("Потребуется дней: " + days);
-    } else System.out.println("Доставки нет");
-}
+
+    public static void printDeliveryTime(int days) {
+        if (days > 0) {
+            System.out.println("Потребуется дней: " + days);
+        } else System.out.println("Доставки нет");
+    }
+
     public static void task3() {
         int deliveryDistance = 70;
         int deliveryTime = checkDistance(deliveryDistance);
